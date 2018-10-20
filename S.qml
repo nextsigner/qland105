@@ -1,6 +1,6 @@
 import QtQuick 2.0
 import QtQuick.Controls 2.0
-import  "../../"
+import  "../../../"
 Item {
     id: r
     width: app.an
@@ -35,7 +35,7 @@ Item {
         Behavior on spacing{NumberAnimation{duration:500}}
         Behavior on opacity{NumberAnimation{duration:500}}
         Image {
-            source: "../../h/qml.png"
+            source: "../../../h/qml.png"
             width: app.fs*10
             fillMode: Image.PreserveAspectFit
             anchors.verticalCenter: parent.verticalCenter
@@ -281,7 +281,7 @@ Item {
                 x:parent.width*0.3-width/2
                 Image {
                     id: r1
-                    source: "../../h/digia-logo.png"
+                    source: "../../../h/digia-logo.png"
                     width: parent.width
                     fillMode: Image.PreserveAspectFit
                     anchors.centerIn: parent
@@ -298,7 +298,7 @@ Item {
                 x:parent.width*0.5-width/2
                 Image {
                     id: r2
-                    source: "../../h/qt-icon.png"
+                    source: "../../../h/qt-icon.png"
                     width: parent.width
                     fillMode: Image.PreserveAspectFit
                     anchors.centerIn: parent
@@ -315,7 +315,7 @@ Item {
                 x:parent.width*0.65-width/2
                 Image {
                     id: r3
-                    source: "../../h/unik.png"
+                    source: "../../../h/unik.png"
                     width: parent.width
                     fillMode: Image.PreserveAspectFit
                     anchors.centerIn: parent
@@ -656,7 +656,7 @@ Item {
         Marco{visible:img9.width===app.fs*2}
         Image {
             id:img9
-            source: "../../h/unik.png"
+            source: "../../../h/unik.png"
             width: app.fs*10
             Behavior on width{NumberAnimation{duration:500}}
             fillMode: Image.PreserveAspectFit
@@ -707,7 +707,7 @@ Item {
         Behavior on spacing{NumberAnimation{duration:500}}
         Behavior on opacity{NumberAnimation{duration:500}}
         Image {
-            source: "../../h/qml.png"
+            source: "../../../h/qml.png"
             width: app.fs*10
             fillMode: Image.PreserveAspectFit
             anchors.verticalCenter: parent.verticalCenter
